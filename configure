@@ -61,8 +61,8 @@ check_toolchain()
     : ${CC=gcc}
     : ${LD=ld}
     : ${OBJCOPY=objcopy}
-    : ${CLANG=clang}
-    : ${LLC=llc}
+    : ${CLANG=clang-16}
+    : ${LLC=llc-16}
     : ${M4=m4}
     : ${EMACS=emacs}
     : ${BPFTOOL=bpftool}
